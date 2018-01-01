@@ -5,8 +5,8 @@ import './index.css';
 // import Toggle from './Test';
 import LoginController from './Login';
 import registerServiceWorker from './registerServiceWorker';
-import NameForm from './NameForm';
+import Calculator from "./Calculator";
 
 // ReactDOM.render(<Clock />, document.getElementById('root'));
-ReactDOM.render(<NameForm />, document.getElementById('root'));
+ReactDOM.render(<Calculator />, document.getElementById('root'));
 registerServiceWorker();
