@@ -6,7 +6,9 @@ import './index.css';
 import LoginController from './Login';
 import registerServiceWorker from './registerServiceWorker';
 import Calculator from "./Calculator";
+import CounterButton from './CounterButton';
+
 
 // ReactDOM.render(<Clock />, document.getElementById('root'));
-ReactDOM.render(<Calculator />, document.getElementById('root'));
+ReactDOM.render(<CounterButton color="blue"/>, document.getElementById('root'));
 registerServiceWorker();
